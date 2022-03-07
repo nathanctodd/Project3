@@ -25,7 +25,7 @@ class Scheme {
         void rearrangeName(vector<int> inputVainas) {
             vector<string> newNameVector;
 
-            for (int i = 0; i < inputVainas.size(); i++) {
+            for (unsigned i = 0; i < inputVainas.size(); i++) {
                 newNameVector.push_back(names[inputVainas[i]]);
             }
             names = newNameVector;
