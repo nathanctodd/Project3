@@ -16,7 +16,7 @@ class Scheme {
             names = inputNames;
         }
 
-        void changeName(int position, string name) {
+        void changeName(unsigned position, string name) {
             if (position < names.size()) {
                 names[position] = name;
             }
